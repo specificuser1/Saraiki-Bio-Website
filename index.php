@@ -233,10 +233,6 @@ $config = include 'config.php';
             border-color: #bc1888;
         }
         
-        .social-link.shop:hover {
-            background: #10b981;
-            border-color: #10b981;
-        }
         
         .social-link.custom-link:hover {
             background: var(--hover-color);
@@ -246,7 +242,6 @@ $config = include 'config.php';
         .discord i { color: #5865F2; }
         .youtube i { color: #FF0000; }
         .instagram i { color: #E1306C; }
-        .shop i { color: #10b981; }
         
         footer {
             margin-top: 40px;
@@ -428,10 +423,6 @@ $config = include 'config.php';
                 <span>Instagram</span>
             </a>
             
-            <a href="<?php echo htmlspecialchars($config['social']['shop']); ?>" class="social-link shop" target="_blank">
-                <i class="fas fa-shopping-cart"></i>
-                <span>Shop</span>
-            </a>
             
             <?php if (isset($config['custom_links']) && !empty($config['custom_links'])): ?>
                 <?php foreach ($config['custom_links'] as $link): ?>
