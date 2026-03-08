@@ -410,10 +410,6 @@ $config = include 'config.php';
                 <span>Instagram</span>
             </a>
             
-            <a href="<?php echo htmlspecialchars($config['social']['shop']); ?>" class="social-link shop" target="_blank">
-                <i class="fas fa-shopping-cart"></i>
-                <span>Shop</span>
-            </a>
             
             <?php if (isset($config['custom_links']) && !empty($config['custom_links'])): ?>
                 <?php foreach ($config['custom_links'] as $link): ?>
