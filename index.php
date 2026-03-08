@@ -223,11 +223,7 @@ $config = include 'config.php';
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
             border-color: #bc1888;
         }
-        
-        .social-link.shop:hover {
-            background: #10b981;
-            border-color: #10b981;
-        }
+    
         
         .social-link.custom-link:hover {
             background: var(--hover-color);
@@ -237,7 +233,6 @@ $config = include 'config.php';
         .discord i { color: #5865F2; }
         .youtube i { color: #FF0000; }
         .instagram i { color: #E1306C; }
-        .shop i { color: #10b981; }
         
         footer {
             margin-top: 40px;
