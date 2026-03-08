@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
         header('Location: admin.php');
         exit;
     } else {
-        $error = "Invalid credentials!";
+        $error = "BSDK, CORRECT LOGIN ENTER KR..!";
     }
 }
 
@@ -123,7 +123,7 @@ if ($isLoggedIn && isset($_GET['delete_link'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel - SUBHAN DEV Portal</title>
+    <title>Admin Panel - BY SUBHAN DEVELOPER</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         * {
@@ -497,12 +497,12 @@ if ($isLoggedIn && isset($_GET['delete_link'])) {
                 </div>
                 
                 <button type="submit" name="login" class="btn">
-                    <i class="fas fa-sign-in-alt"></i> Login
+                    <i class="fas fa-sign-in-alt"></i> Login Now
                 </button>
             </form>
             
             <p class="hint" style="text-align: center; margin-top: 20px;">
-                Default: admin / admin123
+               • PROGRAMMED BY SUBHAN •
             </p>
         </div>
     <?php else: ?>
@@ -512,7 +512,7 @@ if ($isLoggedIn && isset($_GET['delete_link'])) {
                 <h1><i class="fas fa-cog"></i> Portal Settings</h1>
                 <div>
                     <a href="index.php" target="_blank" class="preview-link">
-                        <i class="fas fa-eye"></i> Preview
+                        <i class="fas fa-eye"></i> Preview Website
                     </a>
                     <a href="?logout" class="logout-btn">
                         <i class="fas fa-sign-out-alt"></i> Logout
