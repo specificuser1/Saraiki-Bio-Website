@@ -7,9 +7,9 @@
 // Default configuration template
 $defaultConfig = [
     'profile' => [
-        'name' => '蘇班_سبحان !',
-        'tagline' => 'OWNER OF WARRIOR TEAM',
-        'description' => 'OFFLINE SMALL BREAK!',
+        'name' => 'SARAIKI PLAYS',
+        'tagline' => '*_*',
+        'description' => 'LIV IN PAKISTAN',
         'image' => 'profile.jpg',
         'background_type' => 'video', // 'video' or 'image'
         'background_video' => 'background.mp4',
@@ -19,32 +19,29 @@ $defaultConfig = [
         'enabled' => true,
         'audio_file' => 'music.mp3',
         'custom_url' => '',
-        'volume' => 0.5,
+        'volume' => 0.9,
         'icon' => 'default',
     ],
     'skills' => [
-        'PYTHON',
-        'NODE.JS',
-        'C#',
-        'JAVASCRIPT',
-        'DISCORD CUSTOM BOTS',
-        'PHP'
+        'CONTENT CREATOR',
+        'PUBG MOBILE',
+        'FREEFIRE',
+        'GIRL VOICE PRANKS'
     ],
     'social' => [
         'discord' => 'https://discord.gg/YOUR_INVITE_LINK',
         'youtube' => 'https://www.youtube.com/@YOUR_CHANNEL',
         'instagram' => 'https://www.instagram.com/YOUR_USERNAME',
-        'shop' => 'https://your-shop-link.com'
     ],
     'custom_links' => [],
     'meta' => [
-        'title' => '蘇班_سبحان !',
-        'description' => 'OFFLINE SMALL BREAK',
-        'footer' => '&copy;蘇班_سبحان ! | Copyright ©️ 2018-2026'
+        'title' => 'Saraiki Plays',
+        'description' => 'Content Creator',
+        'footer' => '@SARAIKIPLAYS'
     ],
     'admin' => [
-        'username' => 'admin',
-        'password' => password_hash('admin123', PASSWORD_DEFAULT)
+        'username' => 'saraikirand',
+        'password' => password_hash('root69', PASSWORD_DEFAULT)
     ]
 ];
 
