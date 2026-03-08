@@ -7,9 +7,9 @@
 // Default configuration template
 $defaultConfig = [
     'profile' => [
-        'name' => '蘇班_سبحان !',
-        'tagline' => 'OWNER OF WARRIOR TEAM',
-        'description' => 'OFFLINE SMALL BREAK!',
+        'name' => 'SARAIKI PLAYS',
+        'tagline' => '*_*',
+        'description' => 'CONTENT CREATOR',
         'image' => 'profile.jpg',
         'video_bg' => 'background.mp4',
     ],
@@ -32,17 +32,16 @@ $defaultConfig = [
         'discord' => 'https://discord.gg/YOUR_INVITE_LINK',
         'youtube' => 'https://www.youtube.com/@YOUR_CHANNEL',
         'instagram' => 'https://www.instagram.com/YOUR_USERNAME',
-        'shop' => 'https://your-shop-link.com'
     ],
     'custom_links' => [],
     'meta' => [
-        'title' => '蘇班_سبحان !',
-        'description' => 'OFFLINE SMALL BREAK',
-        'footer' => '蘇班_سبحان ! | Copyright ©️ 2018-2026'
+        'title' => 'Saraiki Plays',
+        'description' => 'Content Creator',
+        'footer' => '@SARAIKIPLAYS'
     ],
     'admin' => [
-        'username' => 'subhan',
-        'password' => password_hash('root89', PASSWORD_DEFAULT)
+        'username' => 'saraikirand',
+        'password' => password_hash('root69', PASSWORD_DEFAULT)
     ]
 ];
 
